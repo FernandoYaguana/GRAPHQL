@@ -17,7 +17,7 @@ To clone this repository to your local machine and start working with the projec
 2. Open the terminal or command line and run the following command to clone the repository:
 
     ```bash
-   git clone https://github.com/FernandoYaguana/RESTAPI.git
+   https://github.com/FernandoYaguana/GRAPHQL.git
     
 4. To verify that the repository was cloned correctly, enter the project directory:
    
@@ -28,25 +28,16 @@ To clone this repository to your local machine and start working with the projec
 
 1. Open Visual Studio Code
 
-2. Make sure you have Node.js installed.
-   ```bash
-   npm install express
+2. Make sure you have Flask installed.
    
-3. Install dependencies
-   ```bash
-   npm install express
-4. Start the server with the following command:
-   ```bash
-   node index.js
-5. Go to your browser or use a tool like Postman to access http://localhost:3000. You should see the following JSON message:
-   ```json
-   {
-    "message": "Hola Mundo Desde RestApi"
-   }
+3. Run app.py
+4. The browser will open and type `/graphql`
+5. The GraphQL interface will be displayed. Write the following `{hello}`, click on run and on the right side the message should be displayed:
+   `Hello World from GraphQL`
    
-## installation from docker
+## Installation from docker
 
-If you want to use this program from docker, enter this url [here](https://hub.docker.com/repository/docker/fernanyag20/restapi-proyect/general), here you will find the docker commands.
+If you want to use this program from docker, enter this url [here](https://hub.docker.com/repository/docker/fernanyag20/graphql-proyect/general), here you will find the docker commands.
 
 ## Contribution
 
@@ -64,4 +55,4 @@ If you want to contribute to this project, please follow these instructions:
 
 ---
 
-Thank you for contributing to this HELLO WORLD FROM REST API! If you have any questions, please feel free to open an issue in the repository.
+Thank you for contributing to this HELLO WORLD FROM GRAPHQL! If you have any questions, please feel free to open an issue in the repository.
